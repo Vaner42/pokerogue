@@ -8,13 +8,16 @@ If you have the motivation and experience with Typescript/Javascript (or are wil
 
 ### 💻 Environment Setup
 #### Prerequisites
-- node: 18.3.0
+- node: 20.13.1
 - npm: [how to install](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 #### Running Locally
 1. Clone the repo and in the root directory run `npm install`
     - *if you run into any errors, reach out in the **#dev-corner** channel in discord*
 2. Run `npm run start:dev` to locally run the project in `localhost:8000`
+
+#### Linting
+We're using ESLint as our common linter and formatter. It will run automatically during the pre-commit hook but if you would like to manually run it, use the `npm run eslint` script. 
 
 ### ❔ FAQ 
 
@@ -23,7 +26,7 @@ If you have the motivation and experience with Typescript/Javascript (or are wil
 
 
 ## 🪧 To Do
-Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to see what we're working on
+Check out [Github Issues](https://github.com/pagefaultgames/pokerogue/issues) to see how can you help us!
 
 # 📝 Credits
 > If this project contains assets you have produced and you do not see your name here, **please** reach out.
@@ -43,7 +46,14 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
     - Keisuke Ito
     - Arata Iiyoshi
     - Atsuhiro Ishizuna
+  - Pokémon HeartGold/SoulSilver
   - Pokémon Black/White 2
+  - Pokémon X/Y
+  - Pokémon Omega Ruby/Alpha Sapphire
+  - Pokémon Sun/Moon
+  - Pokémon Ultra Sun/Ultra Moon
+  - Pokémon Sword/Shield
+  - Pokémon Scarlet/Violet
   - Firel (Custom Metropolis and Laboratory biome music)
   - Lmz (Custom Jungle biome music)
 
@@ -74,7 +84,7 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
 ### 🎨 Trainer Portraits
   - pkmn_realidea (Paid Commissions)
 
-### 🎨 Pokemon Sprites
+### 🎨 Pokemon Sprites and Animation
   - GAMEFREAK (Pokémon Black/White 2)
   - Smogon Sprite Project (Various Artists)
   - Skyflyer
@@ -100,6 +110,7 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
   - bizcoeindoloro
   - mangalos810
   - Involuntary-Twitch
+  - selstar
 
 ### 🎨 Move Animations
   - Pokémon Reborn

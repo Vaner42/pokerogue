@@ -1,4 +1,4 @@
-import { MoveTranslationEntries } from "#app/plugins/i18n";
+import { MoveTranslationEntries } from "#app/interfaces/locales";
 
 export const move: MoveTranslationEntries = {
   "pound": {
@@ -2047,7 +2047,7 @@ export const move: MoveTranslationEntries = {
   },
   "acrobatics": {
     name: "Acrobatics",
-    effect: "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage."
+    effect: "The user nimbly strikes the target. The fewer held items, the higher the damage it inflicts."
   },
   "reflectType": {
     name: "Reflect Type",
@@ -2931,7 +2931,7 @@ export const move: MoveTranslationEntries = {
   },
   "bouncyBubble": {
     name: "Bouncy Bubble",
-    effect: "The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by half the damage taken by the target."
+    effect: "The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by the damage taken by the target."
   },
   "buzzyBuzz": {
     name: "Buzzy Buzz",

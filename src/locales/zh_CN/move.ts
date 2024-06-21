@@ -1,4 +1,4 @@
-import { MoveTranslationEntries } from "#app/plugins/i18n";
+import { MoveTranslationEntries } from "#app/interfaces/locales";
 
 export const move: MoveTranslationEntries = {
   "pound": {
@@ -2915,7 +2915,7 @@ export const move: MoveTranslationEntries = {
   },
   "zippyZap": {
     name: "电电加速",
-    effect: "The user attacks the target with bursts of electricity at high speed. This move always goes first and raises the user's evasiveness.",
+    effect: "迅猛无比的电击。必定能够\n先制攻击，并且提高自己的\n闪避率。",
   },
   "splishySplash": {
     name: "滔滔冲浪",
@@ -2931,7 +2931,7 @@ export const move: MoveTranslationEntries = {
   },
   "bouncyBubble": {
     name: "活活气泡",
-    effect: "投掷水球进行攻击。吸水后\n能回复等同于造成的伤害一\n半的HP",
+    effect: "投掷水球进行攻击。吸水后\n能回复等同于造成的伤害\n的HP",
   },
   "buzzyBuzz": {
     name: "麻麻电击",

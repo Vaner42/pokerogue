@@ -1,4 +1,4 @@
-import { AbilityTranslationEntries } from "#app/plugins/i18n.js";
+import { AbilityTranslationEntries } from "#app/interfaces/locales.js";
 
 export const ability: AbilityTranslationEntries = {
   "stench": {
@@ -471,7 +471,7 @@ export const ability: AbilityTranslationEntries = {
   },
   "honeyGather": {
     name: "Recogemiel",
-    description: "Puede que encuentre Miel una vez concluido el combate."
+    description: "The Pokémon gathers Honey after a battle. The Honey is then sold for money."
   },
   "frisk": {
     name: "Cacheo",
